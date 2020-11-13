@@ -1,111 +1,122 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="keywords" content='welcome web design page'>
-    <title> IZABAYO </title>
-    <link rel="stylesheet" href="./css/style.css">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-</head>
-
-<body>
-
-
-<section id="introduction">
-    <header>
-        <div class="container">
-            <div id="logo">
-      <span class="mark"> IZABAYO Jonas</span>
-            </div>  
-            <a id="menu" class="btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-            <nav id="navigator">
-                <ul>
-                    <li class="current"> <a href=".index.html">SKILLS</a></li>
-                    <li> <a href="portofolio-section">PORTOFOLIO</a></li>
-                    <li> <a href="./html/signup.html">EXPERIENCE</a></li>
-                    <li> <a href="./html/signup.html">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="container">
-<div class ="message">
-            <h3>
-                Hello Dear!
-            </h3>
-
-                It's great pleasure to meet you
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+     <section class="heading">    
+        <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+            <a class="navbar-brand hello" href="">IZABAYO Jonas</a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" id="link-tag" href="">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">PORTOFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">EXPERIENCE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">CONTACTS</a>
+                </li>
+            </ul>
+         </div>
+        </nav>
+    </section>  
+        <section  class="greeting-section" >
+            <div class="container-fluid">
+                <div class ="message">
+                    <h3 class="presentation">                       
+                            Hello Dear!                     
+                    </h3 >
+                        <p class="presentation">
+                        It's great pleasure to meet you
+                       </p>
+                </div>
+            </div>
+        </section>
+        <section class="skills-section">
+            <center>  <h1 class="title">SKILLS</h1> </center>
+            <div class="container">
+                <div class="row">
+                  <div class="col-*-*">
+                    <div class= "front card" >
+                        <img class ="skills card-img-top"  alt="Responsive image"  src ="css/images/backend.jpg" />
+                        <h1>Back-End</h1>
+                        <p>Javascript</p>
+                        <p>Node.js/Express js</p>
+                        <p>Postgres Database</p>
+                         <p>Mongodb Database</p>
+                    </div>
+                  </div>
+                  <div class="col-*-*">
+                    <div class ="card back">
+                        <img  class=" card-img-top img-fluid skills " alt="Responsive image" src ="css/images/frontend.png" />
+                        <h1>Front-End</h1>
+                        <p>React.js </p>
+                        <p>HTML5 CSS3</p>
+                        <p>Bootstrap</p>
+                        <p>JavaScript</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="portofolio-section" >
+            <center>  <h1 class="title">PORTOFOLIO</h1> </center>
+            <div class="row">
+                <div class="col">
+                    <div class= "front card" >
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item portofolio" src="css/videos/barefoot.mp4"></iframe>
+                    </div>
+                    <h4 class="card-title">Barefoot nomads</h4>
+                    <h3><a href="https://ateam-bn-frontend.herokuapp.com/" class="card-a">Preview </a></h3> 
+                </div>
+                </div>
+                    <div class="col ">
+                        <div class= "front card" >
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <iframe class="embed-responsive-item portofolio" src="css/videos/stock.mp4"></iframe>
+                        </div>
+                        <h4 class="card-title"> Stockmanagement UI</h4>
+                        <h4> <a href="https://the-a-team-sup.github.io/StockManagement/UI/pages/" class="card-a"> Preview 
+                    </div>
+                </div>
+                    <div class="col">
+                        <div class= " broad card" >
+                        <img class =" embed-responsive portofolio" src ="css/images/broadcaster.PNG" />
+                            <h4 class="card-title"> Broadcaster</h4>
+                        <h4> <a href="https://izabayogit.github.io/Broadcaster--UI/UI" class="card-a"> Preview </a></h4>
+                </div>
+                 </div>
             
         </div>
-    </div>
- </section>
-<section  class="skills-section" > 
-    <center>  <h1>SKILLS</h1> </center>
-
-<div class="skills-div" >
-    <div class= "front" >
-        <img class ="skills" src ="css/images/backend.jpg" />
-        <h1>Back-End</h1>
-        <p>Node.js/Express js</p>Node.js/Express js
-        <p>Postgres Database</p>
- 
-  <p>Mongodb Database</p>
-    </div>
-       
-    <div class ="back">
-            <img class ="skills" src ="css/images/frontend.png" />
-            <h1>Front-End</h1>
-        <p>React.js </p>Node.js/Express js
-        <p>HTML5 CSS3</p>
-         <p>Bootstrap</p>
-         <p>JavaScript</p>
-         <p>Typescript</p>
-        </div>
-            
-            
-   
-</div>
-</section>
-<section  class="portofolio-section" > 
-    <div class = "container" >
-    <center>  <h1>PORTOFOLIO</h1> </center>
-<div class="portofolia" >
-    <div >
-        <img class ="portofolio" src ="css/images/barefoot.PNG" />
-        <h3><a href="https://ateam-bn-frontend.herokuapp.com/">visit barefoot Nomad </a></h3> 
-        <h4> <a href=""> Source code</a></h4>
-   <h4> <a href="https://www.youtube.com/watch?v=gDi1KMxFOBY"> Preview barefoot Nomad </a></h4></div>
-    <div>
-            <img class ="portofolio" src ="css/images/stockManagement.PNG" />       
-            <h4> <a href="https://github.com/the-a-team-SUP/StockManagement"> Source code </a></h4>
-            <h4> <a href="https://the-a-team-sup.github.io/StockManagement/UI/pages/"> Preview StockManagement </a></h4>
-        </div>
-            
-                <div >
-                <img class ="portofolio" src ="css/images/broadcaster.PNG" />
-                <div class= "enclosure" >
-                <h4> <a href="https://github.com/izabayogit/Broadcaster--UI"> source code </a></h4>
-            <h4> <a href="https://izabayogit.github.io/Broadcaster--UI/UI/"> Preview Broadcaster </a></h4></div>
-        </div>
-            
-   
-</div>
-</div>
-</section>
-
-
-<footer>
-    <p> Izabayo Jonas</p>
-</footer>
-
-<script src="./scipts/index.js"></script>
-</body>
-
-
-
+        </section>
+        <footer class="white-section" id="footer">
+            <div class="container-fluid">
+              <i class="social-icon fab fa-facebook-f"></i>
+              <i class="social-icon fab fa-twitter"></i>
+              <i class="social-icon fab fa-instagram"></i>
+              <i class="social-icon fas fa-envelope"></i>
+              <p>© Copyright  IZABAYO Jonas</p>
+            </div>
+          </footer>
+        
+    </body>
 </html>

@@ -1,0 +1,255 @@
+body{
+    font-family: 'Circular Std Black';
+    font-size: 18px;
+    line-height:1.5;
+    margin:0;
+    padding:0;
+    background-color:#fff;
+}
+#ink-tag{
+    font-family: Georgia, serif, cursive;
+    color:#ccff33;
+}
+.navbar{
+    border-bottom: 1px solid 	#d9d9d9;
+    background:#343a40;
+    position: fixed;
+}
+.greeting-section{
+    min-height: 500px;
+    background-image: url(css/images/myphoto.JPG)  ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center ;
+    text-align: center;
+    color: #ffe6ff;
+    justify-content: center;
+    background-size: 1400px; 
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+.white-section{
+    background-color:#343a40;
+}
+.message{
+    font-family:  'Circular Std Black';
+    text-transform: capitalize;
+    color: #fefefe;
+    line-height: 1.5;
+    font-size: 2em;
+    
+}
+.hello {
+    color: #cfa724;
+}
+.presentation{
+    position: relative;
+    top:200px;
+}
+
+.skills{
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 0;
+    padding-right:50px ;
+}
+
+.back{
+    margin: 20px;
+    width: 20rem;
+    font-family: 'Circular Std Black';
+    color:#b3a577
+}
+.title{
+    color:#b3a577
+}
+.front{
+    margin: 20px;
+    width: 20rem;
+    font-family: 'Circular Std Black';
+    color:#b3a577
+}
+.back img{
+    height: 10em;
+    width: 100%;
+    margin-left: 25px;
+   
+}
+.front img{
+    height: 10em;
+    margin-left: 25px;
+}
+.card{
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.portofolia{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 10px;
+    line-height: 1px;
+   
+}
+a{
+    text-decoration: none;
+    font-family: 'Circular Std Black'
+}
+.portofolio{
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.broad{
+    margin: 20px;
+    width: 20rem;
+    font-family: 'Circular Std Black'
+}
+.portofolia a{
+    font-family: 'Circular Std Black';
+    color:#343a40
+}
+
+.portofolio-section{
+    background-color:  #ecffe6;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 60px;
+   
+    }
+    
+.row-portofolio{
+   
+    padding-left: 60px;
+}
+.card-title{
+    color:  #b3a577;
+}
+.card-a{
+    color:  #b3a577;
+}
+ .card-a:hover{
+     text-decoration: none;
+     cursor: pointer;
+     color:#e6bd39;
+ }
+
+ .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+   
+    color: #f1f1f1;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #818181;
+    text-decoration: none;
+  }
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    font-family: 'Circular Std Black';
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .about-section{
+    min-height: 400px;
+    background-image: url(css/images/me.jpg)  ;
+    background-repeat: no-repeat ;
+    background-size: cover ;
+    background-position: center ;
+    text-align: center;
+    color: #ffe6ff;
+    justify-content: center;
+    background-size: 1400px; 
+    opacity: 0.7;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: relative
+  }
+  .about-intro{position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color:#f1f1f1;
+  font-family: 'Circular Std Black'
+}
+    @media(max-width:768px){
+    .greeting-section{min-height: 500px;
+        background-image: url(css/images/myphoto.JPG)  ;
+        background-repeat: no-repeat ;
+        background-size: cover ;
+        background-position: center ;
+        text-align: center;
+        color: #ffe6ff;
+        justify-content: center;
+        background-size: 700px; 
+        opacity: 0.7;
+        margin-bottom: 0;}
+        
+.skills{
+    width: 70%;
+    border-radius: 5px;
+    margin-bottom: 0;
+    padding-right:50px ;
+}
+.portofolio-section{
+    background-color:  #ecffe6;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 0px;
+   
+    }
+    
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #f1f1f1;
+            display: flex;
+          }
+          .sidenav {
+            height: 50px;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            /* padding-top: 20px; */
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: center;
+          }
+          .about-section{
+            min-height: 300px;
+            background-image: url(css/images/me.jpg)  ;
+            background-repeat: no-repeat ;
+            background-size: cover ;
+            background-position: center ;
+            text-align: center;
+            color: #ffe6ff;
+            justify-content: center;
+            background-size: 500px; 
+            opacity: 0.7;
+            margin-bottom: 0;
+          }
+    }
+    
